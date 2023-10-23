@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+    margin: auto;
+    font: size 48px;
+    width: 200px;
+    height: 125px;
+    border-bottom: 3px solid #45005a;
+    line-height: 200px;
+    color: #45005a;
+}
+
+div {
+    line-height: 200px;
+    text-align: center;
+}
+
+*{
+    font-family: 'Mali', cursive;
+}
+
+body {
+    background-color: #d7cbda;
+}
+
+@media only screen and (min-width: 1024px){
+    
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    body {
+        background-color: rgb(243, 179, 179);
+    }
+    
+    h1 {
+        color: rgb(252, 4, 4);
+        border-bottom: 3px solid rgb(252, 4, 4)
+    }
+    
+}
+    
+
+@media only screen and (max-width: 767px) {
+        [class*="col-"]{
+            width: 100%;
+        }
+    body {
+        background-color: rgb(178, 252, 181);
+    }
+
+    h1 {
+        color: rgb(0, 152, 46);
+        border-bottom: 3px solid rgb(0, 152, 46)
+    }
+    
+    
+}
+
